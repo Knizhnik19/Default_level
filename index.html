@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Единый центр записи</title>
+    <link rel="stylesheet" href="dist/styles/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Calibri:400,700,400italic,700italic" rel="stylesheet">
+</head>
+<body>
+<header>
+<div class="nav">
+
+<div class="nav__logo">
+    <img src="src/img/Logo.png" alt="логотип" class="logo__img">
+    <span class="logo_text">&nbsp &nbsp Единый <br> &nbsp &nbsp Центр Записи</span>
+</div>
+
+<div class="nav__navbar">
+<adress class="nav__contact">
+    <img src="src/img/phone-square.png" alt="телефон" class="contacts__img">
+    <p class="nav__contact__tel">80300 5000</p>
+</adress>
+<nav class="nav__menu">
+    <a class="nav__menu__link" href="#">Главная</a>
+    <a class="nav__menu__link" href="#">Услуги <img src="src/img/arrow-down.png" alt="стрелка меню"></a>
+    <a class="nav__menu__link" href="#">Клиники и кабинеты</a>
+    <a class="nav__menu__link" href="#">О нас</a>
+    <a class="nav__menu__link" href="#">Статьи</a>
+    <a class="nav__menu__link" href="#">FAQ</a>
+    <a class="nav__menu__link" href="#">Контакты</a>
+</nav>
+</div>
+</div>
+</header>
+<div class="section">
+    <section class="section__main">
+        <p class="section__main__text">Всю необходимую информацию о том, как и в каком центре<br>
+            сделать МРТ, КТ и рентген исследованиях, cравнить интересующие<br>
+            Вас клиники, цены на диагностику и порядок прохождения<br>
+            процедур, а также записаться на исследование можно по<br>
+            телефону 8 (812) 385-77-56 </p><br>
+        <h1 class="section__main__text_H">Оставьте свой номер, а мы <br>
+            Вам перезвоним</h1><br>
+
+        <form action="handler.php" enctype="multipart/form-data" method="post">
+        <label for="tel"></label>
+        <div class="input">
+        <input type="tel" name="telephone" pattern="[0-9]{9-13}" placeholder="&nbsp &nbsp +380" id="tel" class="input__tel">
+        <input type="submit" value="Отправить" class="input__sub">
+        </div>
+        </form>
+    </section>
+</div>
+
+<main class="articles">
+    <article class="articles__bar1">
+        <div class="articles__logo">
+            <img src="src/img/Vector%20Smart%20Object1.png" alt="лого розетки" class="articles__image">
+        </div>
+                  <h2>Best Treatment</h2>
+        <h6 class="articles__text">
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+        </h6>
+    </article>
+    <article class="articles__bar2">
+        <div class="articles__logo">
+        <img src="src/img/Vector%20Smart%20Object2.png" alt="лого розетки" class="articles__image2">
+        </div>
+        <h2>Emergency Help</h2>
+        <h6 class="articles__text">
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+        </h6>
+
+    </article>
+    <article class="articles__bar3">
+        <div class="articles__logo">
+        <img src="src/img/Vector%20Smart%20Object3.png" alt="лого розетки" class="articles__image3">
+        </div>
+        <h2>Medical Staff</h2>
+        <h6 class="articles__text">
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+        </h6>
+
+    </article>
+    <article class="articles__bar4">
+        <div class="articles__logo">
+        <img src="src/img/Vector%20Smart%20Object4.png" alt="лого розетки" class="articles__image4">
+        </div>
+        <h2>Qualified Doctors</h2>
+        <h6 class="articles__text">
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+        </h6>
+
+    </article>
+</main>
+</body>
+</html>
